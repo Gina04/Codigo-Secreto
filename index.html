@@ -16,17 +16,17 @@
   <main class="main">
     <section class="form box">
       <form id="form-encrip-desencrip">
-          <input  type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui, solo letras minúsculas y sin acento!" >
-          <div>
-            <p class="texto-secreto">
-              <strong>Desencripta mensaje secreto:</strong><br>
-              fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y
-               haibenterrlober cobernclufatimesdober cobern enterximestober!
-            </p>
-          </div>
-          <button class="btn" type="submit" value="encriptar!" id="btn-encriptar">Encriptar!</button>
-          <button class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">Desencriptar!</button>
+          <textarea  type="text" name="input-texto" id="input-texto" placeholder="Ingrese su texto aqui" rows="4" cols="50"></textarea>
       </form>
+      <!--<div class="msg-secreto">
+        <p class="texto-secreto">
+          <strong>Desencripta mensaje secreto:</strong><br>
+          fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y
+           haibenterrlober cobernclufatimesdober cobern enterximestober!
+        </p> 
+      </div>-->
+        <button class="btn" type="submit" value="encriptar!" id="btn-encriptar">Encriptar!</button>
+        <button class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">Desencriptar!</button>
     </section>
   
     <section class="msg box">
@@ -36,7 +36,7 @@
   
       <div class="msg_box_input">
         <h2 id="msgError">Ningun mensaje fue encontrado</h2>
-        <input class="text-input" type="text" id="msg" style="border: 0;"></input>
+        <textarea class="text-input" type="text" id="msg" rows="4" cols="35" style="border: none;"></textarea>
         <button class="btn" type="submit" value="copiar" id="btn-copy">Copiar</button>
       </div>
     </section>  

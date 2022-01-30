@@ -131,14 +131,10 @@ input{
 
 #input-texto {
   border-radius: 0.5em;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  display: block;
+  background-color:#F3F5FC;
   padding: 0.5em;
   border: 0;
-  width: 680px;
-  height: 40px;
-
-
+  resize: none;
 }
 
 footer{
@@ -150,10 +146,9 @@ footer{
 *
 *
 Tablet 
-768px X 1384px;
+768px;
 *
 */
-
 
 @media only screen and (max-width: 768px){
   .main {
@@ -196,8 +191,11 @@ Tablet
    display: none;
   }
 
+  #btn-encriptar{
+    margin-left: 90px;
+  }
+  
   #btn-copy{
-    margin-top: 150px;
     margin-right: 0px;
     width: 600px;
   }
@@ -220,14 +218,18 @@ Tablet
   #form-encrip-desencrip{
    display: flex;
    flex-direction: column;
-   margin: auto;
+   margin-bottom: 30px;
    justify-content: center;
    width: 300px;
    height: auto;
   }
 
+  #input-texto {
+    width: 300px;
+  }
+
   .btn {
-    margin-top: 0;  
+    margin-top: 0px;  
     margin-left: 0;
   }
 
@@ -238,21 +240,18 @@ Tablet
   }
 
   #btn-copy{
-    width: 250px;
-    
+    width: 250px;  
   }
-  #input-texto {
-    width: 300px;
-  
-  }
+ 
 
   .texto-secreto{
     margin-top: 30px;
     margin-bottom: 30px;
   }
 
-  #btn-encriptar{
-  margin-left: 0px;
+  #btn-encriptar, #btn-desencriptar{
+  margin-left: 30px;
+
   }
  
 
