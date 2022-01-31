@@ -37,7 +37,7 @@ header{
   justify-content: center;
   color: #0A3871;
   /*background-color: yellow;*/
-  margin-left: 40px;
+  margin-left: 30px;
   
 }
 .main {
@@ -111,7 +111,7 @@ input{
   border-radius: 24px;
   width: 250px;
   height: 50px;
-  margin-top: 280px;
+  margin-top: 100px;
   margin-left: 10px;
 }
 
@@ -135,6 +135,7 @@ input{
   padding: 0.5em;
   border: 0;
   resize: none;
+  margin-left: 180px;
 }
 
 footer{
@@ -162,11 +163,6 @@ Tablet
   
   }
 
-  .titulo{
-  margin-left: 20px;
-  
-}
-
   .btn {
     color:#0A3871;
     font-weight: bold;
@@ -174,13 +170,13 @@ Tablet
     width: 250px;
     height: 50px;
     margin-top: 150px;
-    margin-left: 0;
+   
 
   }
  
 
   .msg.box{
-    width: 688px;
+    width: 560px;
     height: 343px;
     margin-top: 25px;
     padding: auto;
@@ -191,22 +187,28 @@ Tablet
    display: none;
   }
 
-  #btn-encriptar{
-    margin-left: 90px;
-  }
+
   
   #btn-copy{
     margin-right: 0px;
-    width: 600px;
+    width: 500px;
   }
 
-  
+  #btn-encriptar, #btn-desencriptar{
+    margin-top: 0px;
+    margin-left: 180px;
+  }
+
+  #input-texto {
+    margin-left: 20px;
+  }
   
 
 }
 /*
 *
 *
+
 375px
 *
 *
@@ -226,6 +228,7 @@ Tablet
 
   #input-texto {
     width: 300px;
+    margin-left: 0;
   }
 
   .btn {
@@ -234,9 +237,8 @@ Tablet
   }
 
   .msg.box{
-    width: 320px;
-    height: auto;
-     
+    width: 300px;
+    height: auto;  
   }
 
   #btn-copy{
@@ -244,10 +246,6 @@ Tablet
   }
  
 
-  .texto-secreto{
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
 
   #btn-encriptar, #btn-desencriptar{
   margin-left: 30px;
